@@ -1,16 +1,15 @@
-# pr1
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Практическая работа
+## Тема работы
+### Цель работы:
+Повторить макеты интерфейсов приложений при помощи Flutter.
+### Ход работы:
+Для создания макета первым делом нужно скачать библиотеку, шрифты и картинки. Также их необходимо будет прописать в pubspec.yaml.
+Библиотека flutter_svg нужна для работы с картинками svg формата.
+В проекте был убран начальный макет, а также установлен цвет заднего фона.
+Далее прописывается структура интерфейса. SingleChildScrollView используется для возможности прокрутки интерфейса, далее идёт столбец, в котором уже область экрана разделяется на строки, в которых в свою очередь находятся видимые виджеты, такие как текст и кнопки с картинками.
+Также в макете используется выравнивание в строке по центру и картинки в формате svg.
+При создании второго макета также используется виджет для прокрутки. И структура такая же, первым делом идёт столбец, в котором находятся строки, в которых в свою очередь находятся уже видимые виджеты.
+Также для создания отступов между элементами используется виджет SizedBox.
+Для создания отступов от края экрана используется свойство padding у виджета Container или отдельный виджет Padding.
+### Вывод:
+В ходе данной практической работы были созданы макеты на основе интерфейсов приложений при помощи Flutter.
